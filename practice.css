@@ -1,0 +1,229 @@
+* {
+    font-family: 'Source Sans 3', sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container > img {
+    width: 150px;
+    position: absolute;
+    bottom: 98px;
+}
+
+header {
+    position: relative;
+    bottom: 8px;
+}
+
+
+.container > button {
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    padding: 11px 34px;
+    border-radius: 5px;
+    position: relative;
+    left:170px;
+    top: 11px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.container button:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 201px;
+
+    padding: 9.5px 40px;
+    position: relative;
+    bottom: 35px;
+    left: 340px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.header-input :last-child {
+    background-color: #0056d2;
+    position: relative;
+    left: 299px;
+    bottom: 20px;
+    width: 37px;
+    border: 1px solid black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.header-input {
+    position: relative;
+    bottom: 8px;
+    right: 24px;
+}
+
+.header-input img:hover {
+    cursor: pointer;
+}
+
+::placeholder {
+    position: absolute;
+    right: 111px;
+}
+
+a {
+    padding: 16px;
+}
+
+.header-link {
+    position: relative;
+    left: 760px;
+    bottom: 70px;
+}
+
+
+
+hr {
+    position: relative;
+    bottom: 93px;
+}
+
+.header-link a:hover {
+    text-decoration: underline;
+}
+
+a[draggable="false"] {
+    color: black;
+    text-decoration: none;
+
+}
+
+a[draggable="true"] {
+    color: black;
+    text-decoration: none;
+    font-weight:100;
+}
+
+.log :first-child {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.log :first-child:hover {
+    text-decoration: underline;
+}
+
+.log a > button {
+    background-color: #0056d2;
+    position: relative;
+    right: 20px;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.log {
+    display: inline-block;
+    position: relative;
+    left: 1100px;
+    bottom: 100px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 60px;
+}
+
+.container-main {
+    width: 700px;
+    height: 520px;
+    border: px solid;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+    transform: scale(0.9);
+}
+
+main > img {
+    width: 400px;
+    position: relative;
+    left: 790px;
+    bottom: 600px;
+}
+
+.weyn > p {
+    font-size: 18px;
+    margin-left: 4px;
+    font-family: 'Source Sans 3', sans-serif;
+    width: 573px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    position: relative;
+    bottom: 40px;
+}
+
+.geli > a > button  {
+    background-color: #0056d2;
+    padding: 25px 60px;
+    color: white;
+    font-size: 20px;
+    border-color: #0056d2;
+    position: relative;
+    right: 12px;
+    border-color: #0056d2;
+    border-style: solid;
+    border-radius: 4px;
+    bottom: 40px;
+}
+.geli a button:hover {
+    background-color: #00409a;
+    cursor: pointer;
+}
+
+#helli {
+    color: #0056d2;
+    background-color: white;
+    position: relative;
+    right: 35px;
+}
+
+#helli:hover { 
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.patner {
+    width: 100%;
+    height: 250px;
+    background-color: #f5f5f5;
+    position: relative;
+    bottom: 520px;
+}
+
+.patner h3 {
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.patner h3 a {
+    text-decoration: none;
+    color: #0056d2;
+}
+
+#loogs a img {
+    position: relative;
+    bottom: 650px;
+    left: 50px;
+    padding: -6px;
+    transform: scale(0.7); 
+}
